@@ -1,12 +1,9 @@
 import express from 'express';
-import { DisplayAboutPage, DisplayContactPage, DisplayHomepage, DisplayProjectsPage, DisplayServicesPage } from '../controllers';
-
+import { DisplayAboutPage, DisplayContactPage, DisplayHomePage, DisplayProjectsPage, DisplayServicesPage } from '../controllers';
 const router = express.Router();
 
 /* GET home page. */
-router.get('/', DisplayHomepage);
-
-router.get('/home', DisplayHomepage);
+router.get('/', DisplayHomePage);
 
 router.get('/about', DisplayAboutPage);
 
