@@ -3,7 +3,7 @@
         "target": "ES6",
         "module": "CommonJS",
         "sourceMap": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "alwaysStrict": true,
         "removeComments": true,
         "esModuleInterop": true,
