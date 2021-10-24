@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express'
 import passport from 'passport';
-import { UserDisplayName } from '../views/Utils';
+import { UserDisplayName } from '../views/utils';
 
 export async function DisplayLoginPage(req: Request, res: Response, next: NextFunction) {
     if (!req.user) {

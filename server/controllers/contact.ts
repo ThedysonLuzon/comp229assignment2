@@ -1,7 +1,7 @@
 import express from 'express';
 
 import ContactModel from '../models/contact';
-import { UserDisplayName } from '../views/Utils';
+import { UserDisplayName } from '../views/utils';
 
 //(R)ead in CRUD
 export function DisplayListPage(req: express.Request, res: express.Response, next: express.NextFunction) {
