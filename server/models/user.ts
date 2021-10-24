@@ -34,5 +34,3 @@ declare global {
 
 const Model = mongoose.model('User', UserSchema);
 export default Model;
-
-
